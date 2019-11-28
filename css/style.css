@@ -65,14 +65,13 @@ a.icon{
 	display: flex;
 	justify-content: center;
 }
-.btn{
+a.btn{
 	position: absolute;
-	top: 620px;
-	left: 45%;
-}
-.btn a{
+	top: 70%;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 0 auto;
 	display: block;
-	width: 185px;
 	color: #fff;
 	background: #998675;
 	text-align: center;
@@ -80,10 +79,12 @@ a.icon{
 	border-radius: 5px;
 	text-transform: uppercase;
     font-weight: 900;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5)
-    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-
+.slider{
+	position: relative;
+	margin: 0 auto;
+}
 
 
 
@@ -118,7 +119,7 @@ a.icon{
 		margin-top: -17px;
 		display: block;
 		color: #fff;
-		font-size: 25px;
+		font-size: 35px;
 	}
 	.topnav.responsive{
 		position: relative;
@@ -138,6 +139,7 @@ a.icon{
 		float: none;
 		display: block;
 		text-align: left;
+		font-size: 20px;
 	} 
 	.topnav a:hover{
 		border: inherit;
@@ -153,9 +155,7 @@ a.icon{
 	.swiper-slide img{
 		width: inherit;
 	}
-	.btn{
-		left: 40%;
-	}
+	
 
 }
 @media screen and (max-width: 570px){
@@ -171,7 +171,7 @@ a.icon{
 	.swiper-button-prev:after, .swiper-container-rtl .swiper-button-prev:after{
 		display: none;
 	}
-	.btn{
-		left: 30%;
+	a.btn{
+		font-size: 12px;
 	}
 }
