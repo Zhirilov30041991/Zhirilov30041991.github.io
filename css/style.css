@@ -111,8 +111,33 @@ a.btn{
 	background-color: #f1eee9;
 	border:none; 
 }
-.desing h3:hover{
+.desing:hover h3{
 	color: #c7b299;
+}
+.desing:hover .line{
+	background-color: #c7b299;
+}
+.ideas{
+	background: #fbfaf8;
+	padding-top: 85px;
+}
+.ideas-text{
+	text-align: center;
+}
+.ideas-text h2{
+	font-size: 30px;
+	font-family: "MyriadProRegular";
+}
+.ideas-text p{
+	display: inline-block;
+	width: 715px;
+	font-size: 16px;
+}
+.ideas img{
+	background-size: cover;
+	-webkit-box-sizing: cover;
+	-moz-box-sizing: cover;
+	box-sizing: cover;
 }
 
 
@@ -178,6 +203,9 @@ a.btn{
 		padding-bottom: 0px;
 		color: #c7b299;
 	}
+	img.windows{
+		width: 100%;
+	}
 }
 @media screen and (max-width: 769px){
 	.container{
@@ -185,6 +213,12 @@ a.btn{
 	}
 	.swiper-slide img{
 		width: inherit;
+	}
+	img.windows{
+		width: 100%;
+	}
+	.ideas-text p{
+		width: auto;
 	}
 	
 
