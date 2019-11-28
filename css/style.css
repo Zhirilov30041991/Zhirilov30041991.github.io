@@ -154,15 +154,17 @@ a.icon{
 		width: inherit;
 	}
 }
-@media screen and (max-width: 579px){
+@media screen and (max-width: 570px){
 	.container{
 		width: 360px;
 	}
 	.swiper-slide img{
 		width: inherit;
 	}
-	.swiper-button-prev{
+	.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after{
 		display: none;
-		color: red;
+	}
+	.swiper-button-prev:after, .swiper-container-rtl .swiper-button-prev:after{
+		display: none;
 	}
 }
