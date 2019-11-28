@@ -65,12 +65,12 @@ a.icon{
 	display: flex;
 	justify-content: center;
 }
-/*.btn{
+.btn{
 	position: absolute;
-	top: 850px;
+	top: 620px;
 	left: 45%;
 }
-.btn p{
+.btn a{
 	display: block;
 	width: 185px;
 	color: #fff;
@@ -82,7 +82,7 @@ a.icon{
     font-weight: 900;
     box-shadow: 0 0 10px rgba(0,0,0,0.5)
     padding: 10px;
-}*/
+}
 
 
 
@@ -153,6 +153,10 @@ a.icon{
 	.swiper-slide img{
 		width: inherit;
 	}
+	.btn{
+		left: 40%;
+	}
+
 }
 @media screen and (max-width: 570px){
 	.container{
@@ -166,5 +170,8 @@ a.icon{
 	}
 	.swiper-button-prev:after, .swiper-container-rtl .swiper-button-prev:after{
 		display: none;
+	}
+	.btn{
+		left: 30%;
 	}
 }
