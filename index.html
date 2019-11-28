@@ -6,10 +6,8 @@
 	<title>Trevel</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="lib/OwlCarousel/assets/owl.carousel.min.css">
-	<link rel="stylesheet" type="text/css" href="lib/OwlCarousel/assets/owl.theme.default.min.css">
-	<link rel="stylesheet" type="text/css" href="lib/OwlCarousel/assets/owl.theme.green.css">
-	<link rel="stylesheet" type="text/css" href="lib/OwlCarousel/assets/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
 </head>
 <body>
 <header class="header" id="header">
@@ -19,37 +17,34 @@
 				<img src="img/Logo.png">
 			</div>
 			<nav class="topnav" id="myTopnav">
-			<a href="#">Home</a>
-			<a href="#">About Us</a>
-			<a href="#">Portfolio</a>
-			<a href="#">Features</a>
-			<a href="#">Blog</a>
-			<a href="#">Pricing</a>
-			<a href="#">Shortcodes</a>
-			<a href="#">Contact</a>
-			<a href="#" id="menu" class="icon">&#9776;</a>
-		</nav>
+				<a href="#">Home</a>
+				<a href="#">About Us</a>
+				<a href="#">Portfolio</a>
+				<a href="#">Features</a>
+				<a href="#">Blog</a>
+				<a href="#">Pricing</a>
+				<a href="#">Shortcodes</a>
+				<a href="#">Contact</a>
+				<a href="#" id="menu" class="icon">&#9776;</a>
+			</nav>
 		</div>
-		<div class="owl-carousel owl-theme owl-nav">
-		  <div>
-		  	<img src="img/Slauder.png" alt="Slauder">
+		<!-- Swiper -->
+		  <div class="swiper-container">
+			    <div class="swiper-wrapper">
+				      <div class="swiper-slide"><img src="img/Slauder.png"></div>
+				      <div class="swiper-slide"><img src="img/Slauder.png"></div>
+				      <div class="swiper-slide"><img src="img/Slauder.png"></div>
+				      <div class="swiper-slide"><img src="img/Slauder.png"></div>
+			    </div>
+			    <!-- Add Pagination -->
+			    <div class="swiper-pagination"></div>
+			    <!-- Add Arrows -->
+			    <div class="swiper-button-next"></div>
+			    <div class="swiper-button-prev"></div>
 		  </div>
-		  <div>
-		  	<img src="img/Slauder.png" alt="Slauder">
-		  </div>
-		  <div>
-		  	<img src="img/Slauder.png" alt="Slauder">
-		  </div>
-		</div>
-		<div class="btn">
-			<p>Get Started</p>
-		</div>
 	</div>
 </header>
-
-
-<script type="text/javascript" src="lib/jQuery/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="lib/OwlCarousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>	
 </body>
 </html>

@@ -54,7 +54,18 @@ nav a:hover{
 a.icon{
 	display: none;
 }
-.btn{
+.swiper-wrapper{
+	padding-top: 250px;
+	padding-bottom: 300px;
+}
+.swiper-button-next, .swiper-button-prev{
+	padding-top: 100px;
+}
+.swiper-slide{
+	display: flex;
+	justify-content: center;
+}
+/*.btn{
 	position: absolute;
 	top: 850px;
 	left: 45%;
@@ -71,7 +82,7 @@ a.icon{
     font-weight: 900;
     box-shadow: 0 0 10px rgba(0,0,0,0.5)
     padding: 10px;
-}
+}*/
 
 
 
@@ -137,104 +148,21 @@ a.icon{
 }
 @media screen and (max-width: 769px){
 	.container{
-		width: 540px;
+		width: 580px;
 	}
-	.topnav a{
-		display: none;
+	.swiper-slide img{
+		width: inherit;
 	}
-	nav{
-		width: 100%;
-	}
-	.topnav a.icon{
-		float: right;
-		margin-top: -17px;
-		display: block;
-		color: #fff;
-		font-size: 25px;
-	}
-	.topnav.responsive{
-		position: relative;
-		top: 50px;
-		left: -200px;
-		padding-left: 10px;
-	}
-	header .topnav.responsive{
-		height: 20px;
-	}
-	.topnav.responsive a.icon{
-		position: absolute;
-		top:-50px;
-		right: -200px;
-	}
-	.topnav.responsive a{
-		float: none;
-		display: block;
-		text-align: left;
-	} 
-	.topnav a:hover{
-		border: inherit;
-		margin-bottom: 0px;
-		padding-bottom: 0px;
-		color: #c7b299;
-	}
-	.owl-nav{
-		display: none;
-	}
-	  .owl-item.active{
-  		padding-top: 0px;
-  	}
-  	.btn{
-  		position: absolute;
-    	top: 435px;
-    	left: 39%;
-	}		
 }
-}
-@media screen and (max-width: 530px){
+@media screen and (max-width: 579px){
 	.container{
-		width: 320px;
+		width: 360px;
 	}
-	.topnav a{
+	.swiper-slide img{
+		width: inherit;
+	}
+	.swiper-button-prev{
 		display: none;
+		color: red;
 	}
-	nav{
-		width: 100%;
-	}
-	.topnav a.icon{
-		float: right;
-		margin-top: -17px;
-		display: block;
-		color: #fff;
-		font-size: 25px;
-	}
-	.topnav.responsive{
-		position: relative;
-		top: 50px;
-		left: -200px;
-		padding-left: 10px;
-	}
-	header .topnav.responsive{
-		height: 20px;
-	}
-	.topnav.responsive a.icon{
-		position: absolute;
-		top:-50px;
-		right: -200px;
-	}
-	.topnav.responsive a{
-		float: none;
-		display: block;
-		text-align: left;
-	} 
-	.topnav a:hover{
-		border: inherit;
-		margin-bottom: 0px;
-		padding-bottom: 0px;
-		color: #c7b299;
-	}
-	.btn{
-  		position: absolute;
-    	top: 408px;
-    	left: 30%;
-	}	
 }
