@@ -85,6 +85,37 @@ a.btn{
 	position: relative;
 	margin: 0 auto;
 }
+.service{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 35px;
+	padding-bottom: 65px;
+}
+.desing{
+	text-align: center;
+}
+.desing h3{
+	font-family: "MyriadProRegular";
+	font-size: 22px;
+	color: #555;
+}
+.desing p{
+	padding-bottom: 25px;
+	color: #8c8c8c;
+	font-size: 14px;
+}
+.line{
+	text-align: center;
+	width: 90px;
+	height: 4px;
+	background-color: #f1eee9;
+	border:none; 
+}
+.desing h3:hover{
+	color: #c7b299;
+}
+
+
 
 
 
@@ -173,5 +204,8 @@ a.btn{
 	}
 	a.btn{
 		font-size: 12px;
+	}
+	.service{
+		flex-wrap: wrap;
 	}
 }
