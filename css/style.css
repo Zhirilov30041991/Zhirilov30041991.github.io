@@ -180,6 +180,39 @@ a.btn{
     font-weight: 900;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+.latest-text{
+	padding-top: 55px;
+	width: 780px;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.latest-text h2{
+	font-size: 30px;
+	font-family: "MyriadProRegular";
+	font-weight: 300;
+}
+.latest-list{
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+}
+.latest-text p{
+	padding-top: 50px;
+	color: #8c8c8c;
+	letter-spacing: 0.5px;
+}
+.latest-list li{
+	border: 2px solid #ebebeb;
+	margin: 0px 5px;
+	padding: 5px 20px;
+	border-radius: 5px;
+	color: #8c8c8c;
+}
+.latest-list li:hover{
+	background: #998675;
+	color: #fff;
+}
 
 
 
@@ -246,6 +279,9 @@ a.btn{
 	img.windows{
 		width: 100%;
 	}
+	.latest-text{
+		width: auto;
+	}
 }
 @media screen and (max-width: 769px){
 	.container{
@@ -283,6 +319,17 @@ a.btn{
 		flex-wrap: wrap;
 	}
 	.box-btn{
+		display: inline-block;
+		padding-top: 50px;
+	}
+	.box-content{
 		display: block;
+    	text-align: center;
+	}
+	.box-text{
+		text-align: center;
+	}
+	.latest-list{
+		flex-wrap: wrap;
 	}
 }
