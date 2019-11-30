@@ -335,6 +335,9 @@ a.btn{
 	img.windows{
 		width: 100%;
 	}
+	.ideas-text p{
+		width: auto;
+	}
 	.latest-grid{
 		grid-template-columns: 1fr 1fr;
 	}
