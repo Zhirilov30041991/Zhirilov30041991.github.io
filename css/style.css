@@ -213,6 +213,45 @@ a.btn{
 	background: #998675;
 	color: #fff;
 }
+.latest-grid{
+	padding-top: 38px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 30px; 
+	grid-auto-rows: minmax(100px, auto);
+}
+.phone-picture img{
+	width: 100%;
+}
+.latest-tabls, .mountain, .book, .cloud, .magazine, .see{
+	border: 1px solid red;
+}
+.latest-tabls{
+	background: #fbfaf8;
+}
+.latest-text-grid {
+	padding-left: 28px;
+}
+.latest-text-grid h4{
+	font-family: "MyriadProRegular";
+	color: #c7b299;
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 8px;
+	margin-top: 30px;
+}
+.latest-text-grid p{
+	font-size: 14px;
+	color: #d1d1d1;
+	margin-bottom: 25px;
+}
+.latest-text-grid p:after{
+	content: url(..//img/arrow.png);
+	position: relative;
+    top: -80px;
+    left: -145px;
+}
 
 
 
@@ -282,6 +321,9 @@ a.btn{
 	.latest-text{
 		width: auto;
 	}
+	.latest-grid{
+		grid-template-columns: 1fr 1fr;
+	}
 }
 @media screen and (max-width: 769px){
 	.container{
@@ -293,8 +335,8 @@ a.btn{
 	img.windows{
 		width: 100%;
 	}
-	.ideas-text p{
-		width: auto;
+	.latest-grid{
+		grid-template-columns: 1fr 1fr;
 	}
 	
 
@@ -331,5 +373,8 @@ a.btn{
 	}
 	.latest-list{
 		flex-wrap: wrap;
+	}
+	.latest-grid{
+		grid-template-columns: 1fr;
 	}
 }
