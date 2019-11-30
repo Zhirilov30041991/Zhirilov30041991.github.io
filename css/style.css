@@ -259,8 +259,18 @@ a.btn{
 	padding-top: 40px;
 	padding-bottom: 80px;
 }
-
-
+.presentation{
+	background: url(../img/Video-Presentation.png) no-repeat;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.video-presentation video{
+	width: 100%;
+}
 
 
 
