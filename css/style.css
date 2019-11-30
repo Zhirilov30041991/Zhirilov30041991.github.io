@@ -217,7 +217,6 @@ a.btn{
 	padding-top: 38px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
 	grid-gap: 30px; 
 	grid-auto-rows: minmax(100px, auto);
 }
@@ -251,6 +250,14 @@ a.btn{
 	position: relative;
     top: -80px;
     left: -145px;
+}
+.latest-btn{
+	width: 170px;
+	display: block;
+	margin: 0 auto;
+	font-size: 14px;
+	padding-top: 40px;
+	padding-bottom: 80px;
 }
 
 
