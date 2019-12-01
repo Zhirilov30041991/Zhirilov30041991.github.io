@@ -20,3 +20,14 @@ var swiper = new Swiper('.swiper-container', {
         prevEl: '.swiper-button-prev',
       },
     });
+
+var vid = document.getElementById("myVideo"); 
+
+function playVid() { 
+  vid.play(); 
+} 
+
+function pauseVid() { 
+  vid.pause(); 
+}
+

@@ -21,7 +21,7 @@ ul, li{
 	padding: 0;
 	margin: 0;
 }
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6, p, hr{
 	margin: 0;
 	padding: 0;
 }
@@ -109,7 +109,9 @@ a.btn{
 	width: 90px;
 	height: 4px;
 	background-color: #f1eee9;
-	border:none; 
+	border:none;
+	display: block;
+	margin: 0 auto; 
 }
 .desing:hover h3{
 	color: #c7b299;
@@ -268,9 +270,103 @@ a.btn{
     -o-background-size: cover;
     background-size: cover;
 }
-.video-presentation video{
-	width: 100%;
+.video-presentation{
+	padding-top: 200px;
+	padding-bottom: 250px;
+	display: inherit;
+	text-align: center;
 }
+.video-presentation h2{
+	color: #fff;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+.video-presentation p{
+	color: #fff;
+	width: 570px;
+	margin: 0 auto;
+	font-size: 16px;
+}
+.video-presentation img:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+.wrapper-devices-content{
+	display: flex;
+	padding-top: 75px;
+	padding-left: 50px;
+}
+ul.devices_icon li:before{
+	content: url(..//img/device_arrow.png);
+	padding-right: 25px;
+	display: inline-block;
+  	vertical-align: middle;
+}
+ul.devices_icon li{
+	color: #8c8c8c;
+}
+.mobile-devices-content{
+	padding-top: 110px;
+}
+.mobile-devices-content h2{
+	padding-bottom: 35px;
+	height: 30px;
+	font-weight: 400;
+	font-family: "MyriadProRegular";
+	color: #555555;
+}
+.mobile-devices-content p{
+	padding-bottom: 45px;
+	font-size: 16px;
+	color: #8c8c8c;
+	line-height: 1.6;
+}
+.counters{
+	background: rgba(33,27,25,1);
+	background: -moz-linear-gradient(left, rgba(33,27,25,1) 0%, rgba(74,50,38,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(33,27,25,1)), color-stop(100%, rgba(74,50,38,1)));
+	background: -webkit-linear-gradient(left, rgba(33,27,25,1) 0%, rgba(74,50,38,1) 100%);
+	background: -o-linear-gradient(left, rgba(33,27,25,1) 0%, rgba(74,50,38,1) 100%);
+	background: -ms-linear-gradient(left, rgba(33,27,25,1) 0%, rgba(74,50,38,1) 100%);
+	background: linear-gradient(to right, rgba(33,27,25,1) 0%, rgba(74,50,38,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211b19', endColorstr='#4a3226', GradientType=1 );
+}
+.counters_skill{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-top: 60px;
+	padding-bottom: 55px;
+
+}
+.counters_people{
+	text-align: center;
+	margin: 25px;
+}
+.counters_people p{
+	font-size: 14px;
+	color: #b7a48d;
+	text-transform: uppercase;
+	padding-top: 25px;
+	 flex: 1 0 340px;
+  max-width: 500px;
+
+}
+p.number{
+	font-size: 48px;
+	color: #fff;
+	padding: 15px 0pc 10px 0px;
+}
+.counters_line{
+	text-align: center;
+	width: 30px;
+	height: 4px;
+	background-color: #f1eee9;
+	border:none;
+	margin: 0 auto; 
+}
+
+
 
 
 
@@ -341,7 +437,10 @@ a.btn{
 	.latest-grid{
 		grid-template-columns: 1fr 1fr;
 	}
-}
+	.devices_icon{
+		padding-bottom: 35px;
+	}
+
 @media screen and (max-width: 769px){
 	.container{
 		width: 580px;
@@ -358,8 +457,9 @@ a.btn{
 	.latest-grid{
 		grid-template-columns: 1fr 1fr;
 	}
-	
-
+	.wrapper-devices-content img{
+		display: none;
+	}	
 }
 @media screen and (max-width: 570px){
 	.container{
@@ -396,5 +496,11 @@ a.btn{
 	}
 	.latest-grid{
 		grid-template-columns: 1fr;
+	}
+	.video-presentation p{
+		width: auto;
+	}
+	.counters_people{
+		margin: 35px;
 	}
 }
