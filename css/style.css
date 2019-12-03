@@ -262,6 +262,7 @@ a.btn{
 	padding-bottom: 80px;
 }
 .presentation{
+	position: relative;
 	background: url(../img/Video-Presentation.png) no-repeat;
 	width: 100%;
 	height: auto;
@@ -269,6 +270,16 @@ a.btn{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+.presentation:after{
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: rgba(0,0,0,0.5);
+    z-index: 2;
 }
 .video-presentation{
 	padding-top: 200px;
@@ -286,10 +297,6 @@ a.btn{
 	width: 570px;
 	margin: 0 auto;
 	font-size: 16px;
-}
-.video-presentation img:hover{
-	opacity: 0.5;
-	cursor: pointer;
 }
 .wrapper-devices-content{
 	display: flex;
@@ -405,8 +412,7 @@ p.number{
 	text-align: center;
 }
 .partners-foto img{
-	max-width: 100%;
-	height: auto;
+	
 	padding: 120px 25px;
 }
 
@@ -490,7 +496,14 @@ p.number{
 	.posrs_content{
 		width: auto;
 	}
-
+	.partners-foto img{
+		width: 17%;
+		padding: 40px 15px;
+	}
+	.partners{
+		width: 100%;
+	}
+}
 @media screen and (max-width: 769px){
 	.container{
 		width: 580px;
