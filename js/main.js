@@ -1,3 +1,13 @@
+// Якорь с прогруткой
+$('.main-arrow a').on('click', function (e) {
+        e.preventDefault();
+        
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top
+        }, 1500, 'linear');
+    });
+
+// Адаптивное меню
 menu.onclick = function myFunction(){
 	var x = document.getElementById('myTopnav');
 
@@ -7,27 +17,3 @@ menu.onclick = function myFunction(){
 		x.className = "topnav";
 	}
 }
-var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-
-var vid = document.getElementById("myVideo"); 
-
-function playVid() { 
-  vid.play(); 
-} 
-
-function pauseVid() { 
-  vid.pause(); 
-}
-
