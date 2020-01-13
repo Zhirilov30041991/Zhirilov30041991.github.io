@@ -48,7 +48,3 @@
       border-radius: 30px; }
     .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
       background: #869791; }
-      .owl-carousel .owl-item img {
-        display: flex;
-        margin: 0 auto;
-      }
