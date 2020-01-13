@@ -251,8 +251,8 @@
 
 					<form action="#" method="POST" class="form">
 						<input type="text" name="text" class="input" placeholder="Name" required>
-						<input type="text" name="text" class="input" placeholder="Email" required>
-						<input type="text" name="text" class="input" placeholder="Phone" required>
+						<input type="email" name="email" class="input" placeholder="Email" required>
+						<input type="tel" name="tel" class="input" placeholder="Phone" required>
 					</form>
 					<form action="#" method="POST" class="form-one">
 						<input type="text" name="text" class="massenger" placeholder="Message" required>
