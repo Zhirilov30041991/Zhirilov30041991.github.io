@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Lesson_6</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="contact.php">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
