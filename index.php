@@ -1,19 +1,57 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8"/>
+	<meta charset="UTF-8">
+	<title>Lesson_6</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-
-<input name="email" placeholder="Email"><br>
-<input name="name" placeholder="Имя"><br>
-<input name="phone" placeholder="Телефон"><br>
-<textarea name="message" placeholder="Сообщение"></textarea><br>
-<input type="button" value="Отправить сообщение">
-<div class='result'></div>
-
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-<script>window.JQuery || document.write('<script src="js/jquery-3.1.1.min.js"><\/script>');</script>
-<script src='js/script.js'></script>
-
+	<header>
+		<div class="header__logo">
+			<img src="images/header.png" alt="men">
+		</div>
+	</header>
+	<section id="contact" class="contact">
+		<div class="main">
+			<div class="pointer">
+				<div class="square"></div>
+				<div class="square"></div>
+				<div class="square"></div>
+				<div class="square"></div>
+				<div class="square"></div>
+				<div class="square"></div>
+				<div class="square"></div>
+				<div class="square"></div>
+				<div class="square"></div>
+				<div class="square"></div>
+				<div class="square"></div>
+				<div class="square"></div>
+				<div class="square"></div>
+				<div class="square"></div>
+			</div>
+			<h1>Coming Soon</h1>
+			<form action="mail.php" method="POST">
+				<div>
+					<label for="first_name">Contact Us</label>
+					<input type="text" id="name" name="user_name" placeholder="Name">
+				</div>
+				<div>
+					<input type="email" id="email" name="user_email" placeholder="Email">
+				</div>
+				<div>
+					<input type="tel" id="tel" name="user_phone" placeholder="Telephone" >
+				</div>
+				<button type="submit" name="send" value="send">Send</button>
+			</form>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<p>Copyright ©2013 Prankster, Inc. - All Rights Reserved.</p>
+		</div>
+	</footer>
+	<script type="text/javascript" src="lib/jQuery/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
