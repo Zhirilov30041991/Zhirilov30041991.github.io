@@ -47,8 +47,10 @@
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none; }
   .owl-carousel .owl-item img {
-    display: block;
-    width: 100%; }
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 180px; }
   .owl-carousel .owl-nav.disabled,
   .owl-carousel .owl-dots.disabled {
     display: none; }
@@ -184,3 +186,7 @@
   z-index: 1;
   height: 100%;
   width: 100%; }
+  .owl-item{
+  padding-top: 270px;
+  padding-bottom: 550px;
+}
