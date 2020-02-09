@@ -1,0 +1,98 @@
+/*@media screen and (min-width: 480px) and (max-width: 1200px){*/
+
+/*}*/
+@media only screen and (max-width: 1200px) {
+   .work_one, .work_two{
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   .square, .square_two{
+    margin: 1rem;
+   }
+    .footer_contacts{   
+        margin-right: 0px;
+    }
+    .ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-draggable.ui-resizable{
+    width: 100% !important;
+}
+ }
+@media only screen and (max-width: 992px) {
+    .header_main{
+        display: flex;
+        justify-content: center;
+    }
+    .header_text{
+        padding-right: 0;
+    }
+    .header_text a{
+        margin: auto;
+        margin-top: 60px;
+    }
+    .numbers_main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .numbers_icon{
+        margin-bottom: 30px;
+    }
+    .video_screen {
+         width: 100%;
+    }
+    .service_one{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .owl-nav{
+        display: none;
+    }
+    .footer_project, .footer_news, .footer_social{
+        display: none;
+    }
+ }
+
+ @media only screen and (max-width: 768px){
+    .wq{
+        flex-wrap: wrap;
+    }
+    .footer_contacts, .footer_date{
+        margin-right: 0;
+    }
+   .nav__bar{
+    display: block;
+}
+    .logo{
+        margin: auto;
+    }
+    ul{
+        display: none;
+    } 
+}
+
+ @media only screen and (max-width: 576px){
+    .header_text h1{
+        text-align: center;
+    }
+    .header_text p{
+        text-align: center;
+    }
+    .clients_images img{
+        width: 18%;
+    }
+    .professional_skills h2{
+        font-size: 18px;
+    }
+    #dialog button, #dialog a{
+        min-width: 280px;  
+    }
+ }
+  @media only screen and (max-width: 360px){
+    .footer_main{   
+        flex-direction: column;
+    }
+    .footer_date{
+        margin-bottom: 25px;
+    }
+ }
+
+
